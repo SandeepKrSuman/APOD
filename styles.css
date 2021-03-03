@@ -1,0 +1,39 @@
+body{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
+}
+
+.apod-date, .pod{
+  text-align: center;
+}
+
+.apod-date h1{
+  font-family: 'Stick', sans-serif;
+}
+
+.apod-date span{
+  padding: 1px;
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 18px;
+}
+
+.pod{
+  margin: 5%;
+}
+
+.pod h2{
+  font-family: 'Shippori Mincho B1', serif;
+}
+
+.copyright{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.explain{
+  font-family: 'Shippori Mincho B1', serif;
+  font-weight: bold;
+}
+
+.pod img{
+  max-width: 100%;
+}
