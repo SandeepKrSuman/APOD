@@ -5,7 +5,7 @@ const apiCall = async () => {
   if(response.status === 200){
     const dt = apiData.date;
     const title = apiData.title;
-    const cr = apiData.copyright;
+    const cr = apiData.copyright ? apiData.copyright : "-";
     const expl = apiData.explanation;
     const imgurl = apiData.hdurl;
 
